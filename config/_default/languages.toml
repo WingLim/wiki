@@ -1,5 +1,5 @@
-[en]
+[zh]
   title = "Lim Wiki"
-  languageName = "English"
+  languageName = "Chineses"
   weight = 1
-  contentdir = "content/en"
+  contentdir = "content/zh"

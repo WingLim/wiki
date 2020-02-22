@@ -1,8 +1,8 @@
-baseURL = "http://example.org"
+baseURL = "https://wiki.limxw.com"
 title = "Limx WiKi"
 theme = "zdoc"
 
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = false
 hasCJKLanguage = false
 
