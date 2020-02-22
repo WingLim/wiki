@@ -1,10 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lim Wiki</title><link>https://wiki.limxw.com/</link><description>Recent content on Lim Wiki</description><generator>Hugo -- gohugo.io</generator><language>zh</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate><atom:link href="https://wiki.limxw.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Git</title><link>https://wiki.limxw.com/tech/tools/git/</link><pubDate>Sat, 22 Feb 2020 22:50:06 +0800</pubDate><guid>https://wiki.limxw.com/tech/tools/git/</guid><description>分支 查看 1 git branch -a
-创建并切换 1 git checkout -b &amp;lt;branch&amp;gt;
-切换 1 git checkout master
-删除 本地分支 1 git branch -d &amp;lt;branch&amp;gt;
-远程分支 1 git push origin --delete &amp;lt;branch&amp;gt;
-合并 1 git merge &amp;lt;branch&amp;gt;
-标签 创建 1 git tag &amp;lt;tagname&amp;gt; &amp;lt;commit&amp;gt;
-替换本地改动 即恢复文件到上一次 commit
-1 git check -- &amp;lt;filename&amp;gt;
-丢弃本地所有改动和提交</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lim Wiki</title><link>https://wiki.limxw.com/</link><description>Recent content on Lim Wiki</description><generator>Hugo -- gohugo.io</generator><language>zh</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate><atom:link href="https://wiki.limxw.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Git</title><link>https://wiki.limxw.com/tech/tools/git/</link><pubDate>Sat, 22 Feb 2020 22:50:06 +0800</pubDate><guid>https://wiki.limxw.com/tech/tools/git/</guid><description>Submodules 添加 1 git submodule add &amp;lt;url&amp;gt;
+更新 1 git submodule update --remote --merge
+恢复 克隆一个带 submodule 的 repo 时，通过下面这条命令下载 submodule
+1 git submodule update --init --recursive
+删除 1 2 3 4 5 6 7 8 # 删除 submodule 目录及源码
+rm -rf &amp;lt;submodule_folder&amp;gt;
+# 删除 submodule 目录
+rm -rf .git/module/&amp;lt;your_submodule&amp;gt;
+# 删除 .gitmodules 中 submodule 相关条目
+vim .gitmodules
+# 删除配置项中 submodule 相关条目
+vim .</description></item></channel></rss>
