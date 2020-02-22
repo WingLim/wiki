@@ -9,7 +9,7 @@ useFaviconGenerator = true # https://www.favicon-generator.org/
 
 enableSearch = true
 enableSearchHighlight = true
-enableLangChange = true
+enableLangChange = false
 enableDarkMode = true
 enableBreadcrumb = true
 enableBlogBreadcrumb = true

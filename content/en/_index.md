@@ -1,24 +1,21 @@
 ---
-title: ZDoc
+title: Lim Wiki
 description: Lim Wiki
 date: 2020-01-26T04:15:05+09:00
 draft: false
 updatesBanner: "Banner - &nbsp; [Hugo ZDoc theme](https://github.com/zzossig/hugo-theme-zdoc) &nbsp; just arrived"
 landingImage: favicon/android-icon-192x192.png
 landingTitle:
-  - Hugo ZDoc theme
+  - Lim Wiki
 landingText:
-  - Make a documentation with hugo zdoc theme!
+  - Notes, Documents, and Files
 titleColor:
 textColor:
 spaceBetweenTitleText: 25
 buttons:
-  - link: docs/gettingstarted/quickstart
-    text: GET STARTED
+  - link: courses
+    text: READ
     color: primary
-  - link: https://github.com/zzossig/hugo-theme-zdoc
-    text: DOWNLOAD
-    color: default
 # shields:
   # - link: https://github.com/zzossig/hugo-theme-zdoc
   #   image: https://img.shields.io/github/forks/zzossig/hugo-theme-zdoc?label=Fork&style=social
