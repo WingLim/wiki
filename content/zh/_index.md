@@ -3,7 +3,7 @@ title: Lim Wiki
 description: Lim Wiki
 date: 2020-01-26T04:15:05+09:00
 draft: false
-updatesBanner: "Banner - &nbsp; [Hugo ZDoc theme](https://github.com/zzossig/hugo-theme-zdoc) &nbsp; just arrived"
+updatesBanner: "Using &nbsp; [ZDoc](https://github.com/zzossig/hugo-theme-zdoc) &nbsp; as Wiki"
 landingImage: favicon/android-icon-192x192.png
 landingTitle:
   - Lim Wiki
