@@ -10,7 +10,7 @@ draft: false
 
 ## Fira Code
 
-Monospaced font with programming ligatures
+带编程连字的等距字体。
 
 字体名：Fira Code
 
@@ -20,7 +20,7 @@ GitHub地址：[FiraCode](https://github.com/tonsky/FiraCode)
 
 ## Source Code Pro
 
-Monospaced font family for user interface and coding environments
+来自 Adobe 的等距编程字体。
 
 GitHub地址：[source-code-pro](https://github.com/adobe-fonts/source-code-pro)
 
@@ -28,13 +28,13 @@ GitHub地址：[source-code-pro](https://github.com/adobe-fonts/source-code-pro)
 
 ## Nerd Fonts
 
-Iconic font aggregator, collection, and patcher
+包含了  [Font Awesome ](https://github.com/FortAwesome/Font-Awesome), [Devicons ](https://vorillaz.github.io/devicons/), [Octicons ](https://github.com/primer/octicons), and [others](https://github.com/ryanoasis/nerd-fonts#glyph-sets) 的字体图标库，以及超过20个补丁的字体。
 
 GitHub地址：[Nerd Fonts](https://github.com/ryanoasis/nerd-fonts)
 
 官网：https://www.nerdfonts.com/
 
-![/images/nerdfonts.png]()
+![Nerd Fonts](/images/nerdfonts.png)
 
 
 
