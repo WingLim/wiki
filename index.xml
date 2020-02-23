@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lim Wiki</title><link>https://wiki.limxw.com/</link><description>Recent content on Lim Wiki</description><generator>Hugo -- gohugo.io</generator><language>zh</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate><atom:link href="https://wiki.limxw.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Fonts</title><link>https://wiki.limxw.com/tech/tools/fonts/</link><pubDate>Mon, 24 Feb 2020 02:07:32 +0800</pubDate><guid>https://wiki.limxw.com/tech/tools/fonts/</guid><description>注意：带 Mono 后缀的字体为等距字体
-Fira Code Monospaced font with programming ligatures
+Fira Code 带编程连字的等距字体。
 字体名：Fira Code
 GitHub地址：FiraCode
-Source Code Pro Monospaced font family for user interface and coding environments
+Source Code Pro 来自 Adobe 的等距编程字体。
 GitHub地址：source-code-pro
-Nerd Fonts Iconic font aggregator, collection, and patcher
+Nerd Fonts 包含了 Font Awesome , Devicons , Octicons , and others 的字体图标库，以及超过20个补丁的字体。
 GitHub地址：Nerd Fonts
 官网：https://www.nerdfonts.com/
 Fira Code With Nerd Fonts 字体名：FiraCode NF
