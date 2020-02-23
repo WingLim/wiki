@@ -4,11 +4,7 @@ date: 2020-02-24T02:07:32+08:00
 draft: false
 ---
 
-{{< alert theme="warning" dir="ltr" >}}
-
-带 Mono 后缀的字体为等距字体
-
-{{< /alert >}}
+**注意：带 Mono 后缀的字体为等距字体**
 
 
 
