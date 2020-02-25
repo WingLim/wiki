@@ -1,5 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lim Wiki</title><link>https://wiki.limxw.com/</link><description>Recent content on Lim Wiki</description><generator>Hugo -- gohugo.io</generator><language>zh</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate><atom:link href="https://wiki.limxw.com/index.xml" rel="self" type="application/rss+xml"/><item><title>吞吐量</title><link>https://wiki.limxw.com/courses/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/throughput/</link><pubDate>Mon, 24 Feb 2020 15:40:32 +0800</pubDate><guid>https://wiki.limxw.com/courses/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/throughput/</guid><description>瞬时：小的值
-平均：大的值</description></item><item><title>等价演算</title><link>https://wiki.limxw.com/courses/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E7%AD%89%E4%BB%B7%E6%BC%94%E7%AE%97/</link><pubDate>Mon, 24 Feb 2020 15:40:32 +0800</pubDate><guid>https://wiki.limxw.com/courses/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E7%AD%89%E4%BB%B7%E6%BC%94%E7%AE%97/</guid><description>基本等价式 双重否定律 $$
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lim Wiki</title><link>https://wiki.limxw.com/</link><description>Recent content on Lim Wiki</description><generator>Hugo -- gohugo.io</generator><language>zh</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate><atom:link href="https://wiki.limxw.com/index.xml" rel="self" type="application/rss+xml"/><item><title>命题的范式</title><link>https://wiki.limxw.com/courses/math/%E8%8C%83%E5%BC%8F/</link><pubDate>Tue, 25 Feb 2020 14:08:32 +0800</pubDate><guid>https://wiki.limxw.com/courses/math/%E8%8C%83%E5%BC%8F/</guid><description>最小项 性质 每个最小项只有一个成真赋值
+最小项的编码：唯一成真赋值作为该最小项的编码
+$$
+\lnot p \land \lnot q :m_{00} \
+\lnot p \land q :m_{01} \
+p \land \lnot q :m_{10} \
+p \land q :m_{11}
+$$
+当 i ≠ j，$m_i \land m_j =0$ 不同最小项的合取永假
+$m_{00} \lor m_{01} \lor m_{10} \lor m_{11} = 1$ 所有最小项的析取永真
+标准析取范式 定义 每个初等积都是最小项
+最小项按下标递增排列
+求法 将命题公式化为析取范式 消去重复出现的命题变元、最小项以及永假式 用单位律和否定律补足未出现的命题变元</description></item><item><title>线性表</title><link>https://wiki.limxw.com/courses/structure/linear-table/</link><pubDate>Tue, 25 Feb 2020 08:15:21 +0800</pubDate><guid>https://wiki.limxw.com/courses/structure/linear-table/</guid><description>同一线性表必定含有相同特性
+增删改查 CRUD
+顺序存储 = 数组</description></item><item><title>吞吐量</title><link>https://wiki.limxw.com/courses/network/throughput/</link><pubDate>Mon, 24 Feb 2020 15:40:32 +0800</pubDate><guid>https://wiki.limxw.com/courses/network/throughput/</guid><description>瞬时：小的值
+平均：大的值</description></item><item><title>等价演算</title><link>https://wiki.limxw.com/courses/math/%E7%AD%89%E4%BB%B7%E6%BC%94%E7%AE%97/</link><pubDate>Mon, 24 Feb 2020 15:40:32 +0800</pubDate><guid>https://wiki.limxw.com/courses/math/%E7%AD%89%E4%BB%B7%E6%BC%94%E7%AE%97/</guid><description>基本等价式 双重否定律 $$
 \lnot\lnot A = A
 $$
 等幂律 $$
