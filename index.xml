@@ -1,4 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lim Wiki</title><link>https://wiki.limxw.com/</link><description>Recent content on Lim Wiki</description><generator>Hugo -- gohugo.io</generator><language>zh</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate><atom:link href="https://wiki.limxw.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Fonts</title><link>https://wiki.limxw.com/tech/tools/fonts/</link><pubDate>Mon, 24 Feb 2020 02:07:32 +0800</pubDate><guid>https://wiki.limxw.com/tech/tools/fonts/</guid><description>注意：带 Mono 后缀的字体为等距字体
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lim Wiki</title><link>https://wiki.limxw.com/</link><description>Recent content on Lim Wiki</description><generator>Hugo -- gohugo.io</generator><language>zh</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate><atom:link href="https://wiki.limxw.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Roadmap</title><link>https://wiki.limxw.com/courses/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/roadmap/</link><pubDate>Mon, 24 Feb 2020 15:40:32 +0800</pubDate><guid>https://wiki.limxw.com/courses/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/roadmap/</guid><description>吞吐量 瞬时：小的值
+平均：大的值</description></item><item><title>等价演算</title><link>https://wiki.limxw.com/courses/%E7%A6%BB%E6%95%A3/%E7%AD%89%E4%BB%B7%E6%BC%94%E7%AE%97/</link><pubDate>Mon, 24 Feb 2020 15:40:32 +0800</pubDate><guid>https://wiki.limxw.com/courses/%E7%A6%BB%E6%95%A3/%E7%AD%89%E4%BB%B7%E6%BC%94%E7%AE%97/</guid><description>基本等价式 双重否定律 $$
+\lnot\lnot A = A
+$$
+等幂律 $$
+A \lor A = A
+$$
+$$
+A \land A = A
+$$
+交换律 $$
+A \lor B = B \lor A
+$$
+$$
+A \land B = B \land A
+$$
+结合律 $$
+(A \lor B) \lor C = A \lor(B \lor C)
+$$
+$$
+(A \land B) \land C = A \land(B \land C)
+$$
+分配律 $$
+A \lor (B \land C) = (A \lor B) \land (A \lor C)</description></item><item><title>Fonts</title><link>https://wiki.limxw.com/tech/tools/fonts/</link><pubDate>Mon, 24 Feb 2020 02:07:32 +0800</pubDate><guid>https://wiki.limxw.com/tech/tools/fonts/</guid><description>注意：带 Mono 后缀的字体为等距字体
 Fira Code 带编程连字的等距字体。
 字体名：Fira Code
 GitHub地址：FiraCode
