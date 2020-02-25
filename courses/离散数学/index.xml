@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>离散数学 on Lim Wiki</title><link>https://wiki.limxw.com/courses/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</link><description>Recent content in 离散数学 on Lim Wiki</description><generator>Hugo -- gohugo.io</generator><language>zh</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Tue, 25 Feb 2020 08:15:21 +0800</lastBuildDate><atom:link href="https://wiki.limxw.com/courses/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml"/><item><title>等价演算</title><link>https://wiki.limxw.com/courses/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E7%AD%89%E4%BB%B7%E6%BC%94%E7%AE%97/</link><pubDate>Mon, 24 Feb 2020 15:40:32 +0800</pubDate><guid>https://wiki.limxw.com/courses/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/%E7%AD%89%E4%BB%B7%E6%BC%94%E7%AE%97/</guid><description>基本等价式 双重否定律 $$
+\lnot\lnot A = A
+$$
+等幂律 $$
+A \lor A = A
+$$
+$$
+A \land A = A
+$$
+交换律 $$
+A \lor B = B \lor A
+$$
+$$
+A \land B = B \land A
+$$
+结合律 $$
+(A \lor B) \lor C = A \lor(B \lor C)
+$$
+$$
+(A \land B) \land C = A \land(B \land C)
+$$
+分配律 $$
+A \lor (B \land C) = (A \lor B) \land (A \lor C)</description></item></channel></rss>
