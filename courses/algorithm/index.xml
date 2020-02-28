@@ -4,30 +4,30 @@ T(n)=aT(n/b)+f(n)
 $$
 情况1：对某个常数 $\varepsilon&amp;gt;0$
 $$
-f(n)=O(n^{log_ba-\varepsilon})\
+f(n)=O(n^{log_ba-\varepsilon})\\
 \Rightarrow T(n)=\Theta(n^{log_ba})
 $$
 情况2：$k\geqslant 0$
 $$
-f(n)=\Theta(n^{log_ba}lg^kn) \
+f(n)=\Theta(n^{log_ba}lg^kn) \\
 \Rightarrow T(n)=\Theta(n^{log_ba}lg^{k+1}n)
 $$
 情况3：对某个常数 $\varepsilon &amp;gt;0$ ，且对某个常数 $c&amp;lt;1$ 和所有足够大的 n 有$af(n/b)\leqslant cf(n)$
 $$
-f(n)=\Omega(n^{log_ba+\varepsilon}) \
+f(n)=\Omega(n^{log_ba+\varepsilon}) \\
 \Rightarrow T(n)=\Theta(f(n))
 $$
 矩阵乘法 Strassen 算法 $$
 A=\left[ \begin{matrix}
-A_{1,1}&amp;amp; A_{1,2}\
-A_{2,1}&amp;amp; A_{2,2}\
+A_{1,1}&amp;amp; A_{1,2}\\
+A_{2,1}&amp;amp; A_{2,2}\\
 \end{matrix} \right]
-\
+\\
 B=\left[ \begin{matrix}
-B_{1,1}&amp;amp; B_{1,2}\
-B_{2,1}&amp;amp; B_{2,2}\
+B_{1,1}&amp;amp; B_{1,2}\\
+B_{2,1}&amp;amp; B_{2,2}\\
 \end{matrix} \right]
-\
+\\
 C=\left[ \begin{matrix}
-C_{1,1}&amp;amp; C_{1,2}\
-C_{2,1}&amp;amp; C_{2,2}\</description></item></channel></rss>
+C_{1,1}&amp;amp; C_{1,2}\\
+C_{2,1}&amp;amp; C_{2,2}\\</description></item></channel></rss>
