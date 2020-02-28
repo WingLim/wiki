@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lim Wiki</title><link>https://wiki.limxw.com/</link><description>Recent content on Lim Wiki</description><generator>Hugo -- gohugo.io</generator><language>zh</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate><atom:link href="https://wiki.limxw.com/index.xml" rel="self" type="application/rss+xml"/><item><title>命题的范式</title><link>https://wiki.limxw.com/courses/math/%E8%8C%83%E5%BC%8F/</link><pubDate>Tue, 25 Feb 2020 14:08:32 +0800</pubDate><guid>https://wiki.limxw.com/courses/math/%E8%8C%83%E5%BC%8F/</guid><description>最小项 性质 每个最小项只有一个成真赋值
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lim Wiki</title><link>https://wiki.limxw.com/</link><description>Recent content on Lim Wiki</description><generator>Hugo -- gohugo.io</generator><language>zh</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate><atom:link href="https://wiki.limxw.com/index.xml" rel="self" type="application/rss+xml"/><item><title>分治法</title><link>https://wiki.limxw.com/courses/algorithm/%E5%88%86%E6%B2%BB%E6%B3%95/</link><pubDate>Fri, 28 Feb 2020 10:28:24 +0800</pubDate><guid>https://wiki.limxw.com/courses/algorithm/%E5%88%86%E6%B2%BB%E6%B3%95/</guid><description>主定理 令 $a\geqslant 1$ 和 $b&amp;gt;1$ 是常数，$f(n)$ 是一个函数，$T(n)$ 是定义在非负整数上的递归式：
+$$
+T(n)=aT(n/b)+f(n)
+$$
+情况1：对某个常数 $\varepsilon&amp;gt;0$
+$$
+f(n)=O(n^{log_ba-\varepsilon})\
+\Rightarrow T(n)=\Theta(n^{log_ba})
+$$
+情况2：$k\geqslant 0$
+$$
+f(n)=\Theta(n^{log_ba}lg^kn) \
+\Rightarrow T(n)=\Theta(n^{log_ba}lg^{k+1}n)
+$$
+情况3：对某个常数 $\varepsilon &amp;gt;0$ ，且对某个常数 $c&amp;lt;1$ 和所有足够大的 n 有$af(n/b)\leqslant cf(n)$
+$$
+f(n)=\Omega(n^{log_ba+\varepsilon}) \
+\Rightarrow T(n)=\Theta(f(n))
+$$
+矩阵乘法 Strassen 算法 $$
+A=\left[ \begin{matrix}
+A_{1,1}&amp;amp; A_{1,2}\
+A_{2,1}&amp;amp; A_{2,2}\
+\end{matrix} \right]
+\
+B=\left[ \begin{matrix}
+B_{1,1}&amp;amp; B_{1,2}\
+B_{2,1}&amp;amp; B_{2,2}\
+\end{matrix} \right]
+\
+C=\left[ \begin{matrix}
+C_{1,1}&amp;amp; C_{1,2}\
+C_{2,1}&amp;amp; C_{2,2}\</description></item><item><title>命题的范式</title><link>https://wiki.limxw.com/courses/math/%E8%8C%83%E5%BC%8F/</link><pubDate>Tue, 25 Feb 2020 14:08:32 +0800</pubDate><guid>https://wiki.limxw.com/courses/math/%E8%8C%83%E5%BC%8F/</guid><description>最小项 性质 每个最小项只有一个成真赋值
 最小项的编码：唯一成真赋值作为该最小项的编码
 $$
 \lnot p \land \lnot q :m_{00} \
