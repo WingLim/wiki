@@ -30,7 +30,9 @@ B_{2,1}&amp;amp; B_{2,2}\\
 \\
 C=\left[ \begin{matrix}
 C_{1,1}&amp;amp; C_{1,2}\\
-C_{2,1}&amp;amp; C_{2,2}\\</description></item><item><title>命题的范式</title><link>https://wiki.limxw.com/courses/math/%E8%8C%83%E5%BC%8F/</link><pubDate>Tue, 25 Feb 2020 14:08:32 +0800</pubDate><guid>https://wiki.limxw.com/courses/math/%E8%8C%83%E5%BC%8F/</guid><description>最小项 性质 每个最小项只有一个成真赋值
+C_{2,1}&amp;amp; C_{2,2}\\</description></item><item><title>命题的范式</title><link>https://wiki.limxw.com/courses/math/%E8%8C%83%E5%BC%8F/</link><pubDate>Tue, 25 Feb 2020 14:08:32 +0800</pubDate><guid>https://wiki.limxw.com/courses/math/%E8%8C%83%E5%BC%8F/</guid><description>初等和：由有限个命题变元或其否定组成的析取式
+初等积：由有限个命题变元或其否定组成的合取式
+最小项 性质 每个最小项只有一个成真赋值
 最小项的编码：唯一成真赋值作为该最小项的编码
 $$
 \lnot p \land \lnot q :m_{00} \\
@@ -42,7 +44,7 @@ $$
 $m_{00} \lor m_{01} \lor m_{10} \lor m_{11} = 1$ 所有最小项的析取永真
 标准析取范式 定义 每个初等积都是最小项
 最小项按下标递增排列
-求法 将命题公式化为析取范式 消去重复出现的命题变元、最小项以及永假式 用单位律和否定律补足未出现的命题变元</description></item><item><title>线性表</title><link>https://wiki.limxw.com/courses/structure/linear-table/</link><pubDate>Tue, 25 Feb 2020 08:15:21 +0800</pubDate><guid>https://wiki.limxw.com/courses/structure/linear-table/</guid><description>同一线性表必定含有相同特性
+求法 消除 $\to \leftrightarrow$ 把否定放在每个变元的前面 利用 $\and$ 对 $\lor$ 的分配律 $p=p\and (q\lor \lnot q) = (p\land q)\lor(p\land \lnot q)$ 编码、排序 最大项 性质 每个最大项只有一个成假赋值 最大项的编码：唯一的成假赋值作为编码 $$</description></item><item><title>线性表</title><link>https://wiki.limxw.com/courses/structure/linear-table/</link><pubDate>Tue, 25 Feb 2020 08:15:21 +0800</pubDate><guid>https://wiki.limxw.com/courses/structure/linear-table/</guid><description>同一线性表必定含有相同特性
 增删改查 CRUD
 顺序存储 = 数组</description></item><item><title>吞吐量</title><link>https://wiki.limxw.com/courses/network/throughput/</link><pubDate>Mon, 24 Feb 2020 15:40:32 +0800</pubDate><guid>https://wiki.limxw.com/courses/network/throughput/</guid><description>瞬时：小的值
 平均：大的值</description></item><item><title>等价演算</title><link>https://wiki.limxw.com/courses/math/%E7%AD%89%E4%BB%B7%E6%BC%94%E7%AE%97/</link><pubDate>Mon, 24 Feb 2020 15:40:32 +0800</pubDate><guid>https://wiki.limxw.com/courses/math/%E7%AD%89%E4%BB%B7%E6%BC%94%E7%AE%97/</guid><description>基本等价式 双重否定律 $$
