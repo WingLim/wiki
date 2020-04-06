@@ -21,14 +21,20 @@ Courses 部分则是大学课程相关的内容
 
 ## 搭建流程
 
-这个 Wiki 是通过 [Hugo](https://gohugo.io/) 和 [hugo-book](https://github.com/alex-shpak/hugo-book) 主题生成的。
+这个 Wiki 是通过 [hugo](https://gohugo.io/) 和 [hugo-book](https://github.com/alex-shpak/hugo-book) 主题生成的。
 
-同时添加了 Mathjax 来解析数学公式，因为在 Hugo 中，Latex 的换行语法和 Markdown 语法解析会有冲突，导致原主题使用的 Katex 没办法换行。
+同时添加了 Mathjax [^1]来解析数学公式，因为在 Hugo 中，Latex 的换行语法和 Markdown 语法解析会有冲突，导致原主题使用的 Katex 没办法换行。
 
-使用了 Github Actions 来自动构建和部署 Hugo 页面到 Github Page
+使用了 Github Actions [^ 2]来自动构建和部署 Hugo 页面到 Github Page
 
 在服务器上使用了 Caddy 来配置 Git webhooks。
 
 当 Github Actions 构建完毕并部署到 Github Page 上时会触发 webhook。
 
 Caddy 会拉取 repo 的 gh-page 分支到服务器上，完成在服务器上的部署。
+
+[^1]: https://github.com/WingLim/wiki/blob/master/layouts/partials/docs/inject/footer.html
+
+
+
+[^ 2]: https://github.com/WingLim/wiki/blob/master/.github/workflows/hugo.yml
