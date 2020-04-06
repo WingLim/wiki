@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lim Wiki on Lim's Wiki</title><link>https://example.com/</link><description>Recent content in Lim Wiki on Lim's Wiki</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml"/><item><title>分治法</title><link>https://example.com/courses/algorithm/%E5%88%86%E6%B2%BB%E6%B3%95/</link><pubDate>Fri, 28 Feb 2020 10:28:24 +0800</pubDate><guid>https://example.com/courses/algorithm/%E5%88%86%E6%B2%BB%E6%B3%95/</guid><description>主定理 令 $a\geqslant 1$ 和 $b&amp;gt;1$ 是常数，$f(n)$ 是一个函数，$T(n)$ 是定义在非负整数上的递归式： $$ T(n)=aT(n/b)+f(n) $$
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lim Wiki on Lim's Wiki</title><link>https://wiki.limxw.com/</link><description>Recent content in Lim Wiki on Lim's Wiki</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Sun, 26 Jan 2020 04:15:05 +0900</lastBuildDate><atom:link href="https://wiki.limxw.com/index.xml" rel="self" type="application/rss+xml"/><item><title>分治法</title><link>https://wiki.limxw.com/courses/algorithm/%E5%88%86%E6%B2%BB%E6%B3%95/</link><pubDate>Fri, 28 Feb 2020 10:28:24 +0800</pubDate><guid>https://wiki.limxw.com/courses/algorithm/%E5%88%86%E6%B2%BB%E6%B3%95/</guid><description>主定理 令 $a\geqslant 1$ 和 $b&amp;gt;1$ 是常数，$f(n)$ 是一个函数，$T(n)$ 是定义在非负整数上的递归式： $$ T(n)=aT(n/b)+f(n) $$
 情况1：对某个常数 $\varepsilon&amp;gt;0$ $$ f(n)=O(n^{log_ba-\varepsilon})\\
 \Rightarrow T(n)=\Theta(n^{log_ba}) $$ 情况2：$k\geqslant 0$ $$ f(n)=\Theta(n^{log_ba}lg^kn) \\
 \Rightarrow T(n)=\Theta(n^{log_ba}lg^{k+1}n) $$ 情况3：对某个常数 $\varepsilon &amp;gt;0$ ，且对某个常数 $c&amp;lt;1$ 和所有足够大的 n 有$af(n/b)\leqslant cf(n)$ $$ f(n)=\Omega(n^{log_ba+\varepsilon}) \\
@@ -10,7 +10,7 @@ B=\left[ \begin{matrix} B_{1,1}&amp;amp; B_{1,2}\\
 B_{2,1}&amp;amp; B_{2,2}\\
 \end{matrix} \right] \\
 C=\left[ \begin{matrix} C_{1,1}&amp;amp; C_{1,2}\\
-C_{2,1}&amp;amp; C_{2,2}\\</description></item><item><title>命题的范式</title><link>https://example.com/courses/math/%E5%91%BD%E9%A2%98%E7%9A%84%E8%8C%83%E5%BC%8F/</link><pubDate>Tue, 25 Feb 2020 14:08:32 +0800</pubDate><guid>https://example.com/courses/math/%E5%91%BD%E9%A2%98%E7%9A%84%E8%8C%83%E5%BC%8F/</guid><description>初等和：由有限个命题变元或其否定组成的析取式
+C_{2,1}&amp;amp; C_{2,2}\\</description></item><item><title>命题的范式</title><link>https://wiki.limxw.com/courses/math/%E5%91%BD%E9%A2%98%E7%9A%84%E8%8C%83%E5%BC%8F/</link><pubDate>Tue, 25 Feb 2020 14:08:32 +0800</pubDate><guid>https://wiki.limxw.com/courses/math/%E5%91%BD%E9%A2%98%E7%9A%84%E8%8C%83%E5%BC%8F/</guid><description>初等和：由有限个命题变元或其否定组成的析取式
 初等积：由有限个命题变元或其否定组成的合取式
 最小项 性质 每个最小项只有一个成真赋值
 最小项的编码：唯一成真赋值作为该最小项的编码 $$ \lnot p \land \lnot q :m_{00} \\
@@ -21,17 +21,17 @@ p \land q :m_{11} $$
 $m_{00} \lor m_{01} \lor m_{10} \lor m_{11} = 1$ 所有最小项的析取永真
 标准析取范式 定义 每个初等积都是最小项
 最小项按下标递增排列
-求法 消除 $\to \leftrightarrow$ 把否定放在每个变元的前面 利用 $\land$ 对 $\lor$ 的分配律 $p=p\land (q\lor \lnot q) = (p\land q)\lor(p\land \lnot q)$ 编码、排序 最大项 性质 每个最大项只有一个成假赋值 最大项的编码：唯一的成假赋值作为编码 $$ \lnot p \land \lnot q :M_{11} \\</description></item><item><title>线性表</title><link>https://example.com/courses/structure/linear-table/</link><pubDate>Tue, 25 Feb 2020 08:15:21 +0800</pubDate><guid>https://example.com/courses/structure/linear-table/</guid><description>同一线性表必定含有相同特性
+求法 消除 $\to \leftrightarrow$ 把否定放在每个变元的前面 利用 $\land$ 对 $\lor$ 的分配律 $p=p\land (q\lor \lnot q) = (p\land q)\lor(p\land \lnot q)$ 编码、排序 最大项 性质 每个最大项只有一个成假赋值 最大项的编码：唯一的成假赋值作为编码 $$ \lnot p \land \lnot q :M_{11} \\</description></item><item><title>线性表</title><link>https://wiki.limxw.com/courses/structure/linear-table/</link><pubDate>Tue, 25 Feb 2020 08:15:21 +0800</pubDate><guid>https://wiki.limxw.com/courses/structure/linear-table/</guid><description>同一线性表必定含有相同特性
 增删改查 CRUD
-顺序存储 = 数组</description></item><item><title>吞吐量</title><link>https://example.com/courses/network/throughput/</link><pubDate>Mon, 24 Feb 2020 15:40:32 +0800</pubDate><guid>https://example.com/courses/network/throughput/</guid><description>瞬时：小的值
-平均：大的值</description></item><item><title>等价演算</title><link>https://example.com/courses/math/%E7%AD%89%E4%BB%B7%E6%BC%94%E7%AE%97/</link><pubDate>Mon, 24 Feb 2020 15:40:32 +0800</pubDate><guid>https://example.com/courses/math/%E7%AD%89%E4%BB%B7%E6%BC%94%E7%AE%97/</guid><description>基本等价式 双重否定律 $$ \lnot\lnot A = A $$
+顺序存储 = 数组</description></item><item><title>吞吐量</title><link>https://wiki.limxw.com/courses/network/throughput/</link><pubDate>Mon, 24 Feb 2020 15:40:32 +0800</pubDate><guid>https://wiki.limxw.com/courses/network/throughput/</guid><description>瞬时：小的值
+平均：大的值</description></item><item><title>等价演算</title><link>https://wiki.limxw.com/courses/math/%E7%AD%89%E4%BB%B7%E6%BC%94%E7%AE%97/</link><pubDate>Mon, 24 Feb 2020 15:40:32 +0800</pubDate><guid>https://wiki.limxw.com/courses/math/%E7%AD%89%E4%BB%B7%E6%BC%94%E7%AE%97/</guid><description>基本等价式 双重否定律 $$ \lnot\lnot A = A $$
 等幂律 $$ A \lor A = A $$
 $$ A \land A = A $$
 交换律 $$ A \lor B = B \lor A $$
 $$ A \land B = B \land A $$
 结合律 $$ (A \lor B) \lor C = A \lor(B \lor C) $$
 $$ (A \land B) \land C = A \land(B \land C) $$
-分配律 $$ A \lor (B \land C) = (A \lor B) \land (A \lor C) $$</description></item><item><title>Fonts</title><link>https://example.com/tech/tools/fonts/</link><pubDate>Mon, 24 Feb 2020 02:07:32 +0800</pubDate><guid>https://example.com/tech/tools/fonts/</guid><description>注意：带 Mono 后缀的字体为等距字体
+分配律 $$ A \lor (B \land C) = (A \lor B) \land (A \lor C) $$</description></item><item><title>Fonts</title><link>https://wiki.limxw.com/tech/tools/fonts/</link><pubDate>Mon, 24 Feb 2020 02:07:32 +0800</pubDate><guid>https://wiki.limxw.com/tech/tools/fonts/</guid><description>注意：带 Mono 后缀的字体为等距字体
 Fira Code 带编程连字的等距字体。
 字体名：Fira Code
 GitHub地址： FiraCode
@@ -45,8 +45,8 @@ GitHub地址： Fira Code Nerd Font
 下载地址：https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
 Source Code Pro With Nerd Fonts 字体名：SauceCodePro Nerd Font
 GitHub地址： Sauce Code Nerd Font
-下载地址：https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/SourceCodePro.zip</description></item><item><title>Neovim</title><link>https://example.com/tech/tools/neovim/</link><pubDate>Sun, 23 Feb 2020 15:19:16 +0800</pubDate><guid>https://example.com/tech/tools/neovim/</guid><description>构建准备 一般要求 Clang or GCC 4.4+ 版本 添加了 TLS/SSL 编译的 CMake 2.8.12+ 版本 Ubuntu / Debian sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip 在 Ubuntu 16.04 / Debian Jessie 和更高版本中需要安装 libtool-bin
-CentOS / RHEL / Fedora sudo yum -y install ninja-build libtool autoconf automake cmake gcc gcc-c++ make pkgconfig unzip patch Arch Linux sudo pacman -S base-devel cmake unzip ninja macOS 安装 Xcode 和 Homebrew</description></item><item><title>Git</title><link>https://example.com/tech/tools/git/</link><pubDate>Sat, 22 Feb 2020 22:50:06 +0800</pubDate><guid>https://example.com/tech/tools/git/</guid><description>Submodules 添加 git submodule add &amp;lt;url&amp;gt;
+下载地址：https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/SourceCodePro.zip</description></item><item><title>Neovim</title><link>https://wiki.limxw.com/tech/tools/neovim/</link><pubDate>Sun, 23 Feb 2020 15:19:16 +0800</pubDate><guid>https://wiki.limxw.com/tech/tools/neovim/</guid><description>构建准备 一般要求 Clang or GCC 4.4+ 版本 添加了 TLS/SSL 编译的 CMake 2.8.12+ 版本 Ubuntu / Debian sudo apt-get install ninja-build gettext libtool libtool-bin autoconf automake cmake g++ pkg-config unzip 在 Ubuntu 16.04 / Debian Jessie 和更高版本中需要安装 libtool-bin
+CentOS / RHEL / Fedora sudo yum -y install ninja-build libtool autoconf automake cmake gcc gcc-c++ make pkgconfig unzip patch Arch Linux sudo pacman -S base-devel cmake unzip ninja macOS 安装 Xcode 和 Homebrew</description></item><item><title>Git</title><link>https://wiki.limxw.com/tech/tools/git/</link><pubDate>Sat, 22 Feb 2020 22:50:06 +0800</pubDate><guid>https://wiki.limxw.com/tech/tools/git/</guid><description>Submodules 添加 git submodule add &amp;lt;url&amp;gt;
 更新 git submodule update --remote --merge
 恢复 克隆一个带 submodule 的 repo 时，通过下面这条命令下载 submodule
 git submodule update --init --recursive
