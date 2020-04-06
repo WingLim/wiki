@@ -2,7 +2,7 @@
 
 baseURL: https://example.com/
 title: Lim's Wiki
-theme: hugo-book
+theme: book
 
 # Book configuration
 DefaultContentLanguage: zh
