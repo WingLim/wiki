@@ -5,7 +5,7 @@ title: Lim's Wiki
 theme: book
 
 # Book configuration
-DefaultContentLanguage: zh
+DefaultContentLanguage: cn
 disablePathToLower: true
 enableGitInfo: true
 
@@ -22,7 +22,7 @@ markup:
 # See https://gohugo.io/content-management/multilingual/#translation-by-filename
 # And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
 languages:
-  zh:
+  cn:
     languageName: Chinese
     contentDir: content/zh
     weight: 1
