@@ -1,37 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>离散数学 on Lim Wiki</title><link>https://wiki.limxw.com/courses/math/</link><description>Recent content in 离散数学 on Lim Wiki</description><generator>Hugo -- gohugo.io</generator><language>zh</language><copyright>&amp;copy;{year}, All Rights Reserved</copyright><lastBuildDate>Tue, 25 Feb 2020 08:15:21 +0800</lastBuildDate><atom:link href="https://wiki.limxw.com/courses/math/index.xml" rel="self" type="application/rss+xml"/><item><title>命题的范式</title><link>https://wiki.limxw.com/courses/math/%E5%91%BD%E9%A2%98%E7%9A%84%E8%8C%83%E5%BC%8F/</link><pubDate>Tue, 25 Feb 2020 14:08:32 +0800</pubDate><guid>https://wiki.limxw.com/courses/math/%E5%91%BD%E9%A2%98%E7%9A%84%E8%8C%83%E5%BC%8F/</guid><description>初等和：由有限个命题变元或其否定组成的析取式
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>离散数学 on Lim's Wiki</title><link>https://example.com/courses/math/</link><description>Recent content in 离散数学 on Lim's Wiki</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Tue, 25 Feb 2020 08:15:21 +0800</lastBuildDate><atom:link href="https://example.com/courses/math/index.xml" rel="self" type="application/rss+xml"/><item><title>命题的范式</title><link>https://example.com/courses/math/%E5%91%BD%E9%A2%98%E7%9A%84%E8%8C%83%E5%BC%8F/</link><pubDate>Tue, 25 Feb 2020 14:08:32 +0800</pubDate><guid>https://example.com/courses/math/%E5%91%BD%E9%A2%98%E7%9A%84%E8%8C%83%E5%BC%8F/</guid><description>初等和：由有限个命题变元或其否定组成的析取式
 初等积：由有限个命题变元或其否定组成的合取式
 最小项 性质 每个最小项只有一个成真赋值
-最小项的编码：唯一成真赋值作为该最小项的编码
-$$
-\lnot p \land \lnot q :m_{00} \\
+最小项的编码：唯一成真赋值作为该最小项的编码 $$ \lnot p \land \lnot q :m_{00} \\
 \lnot p \land q :m_{01} \\
 p \land \lnot q :m_{10} \\
-p \land q :m_{11}
-$$
+p \land q :m_{11} $$
 当 i ≠ j，$m_i \land m_j =0$ 不同最小项的合取永假
 $m_{00} \lor m_{01} \lor m_{10} \lor m_{11} = 1$ 所有最小项的析取永真
 标准析取范式 定义 每个初等积都是最小项
 最小项按下标递增排列
-求法 消除 $\to \leftrightarrow$ 把否定放在每个变元的前面 利用 $\land$ 对 $\lor$ 的分配律 $p=p\land (q\lor \lnot q) = (p\land q)\lor(p\land \lnot q)$ 编码、排序 最大项 性质 每个最大项只有一个成假赋值 最大项的编码：唯一的成假赋值作为编码 $$</description></item><item><title>等价演算</title><link>https://wiki.limxw.com/courses/math/%E7%AD%89%E4%BB%B7%E6%BC%94%E7%AE%97/</link><pubDate>Mon, 24 Feb 2020 15:40:32 +0800</pubDate><guid>https://wiki.limxw.com/courses/math/%E7%AD%89%E4%BB%B7%E6%BC%94%E7%AE%97/</guid><description>基本等价式 双重否定律 $$
-\lnot\lnot A = A
-$$
-等幂律 $$
-A \lor A = A
-$$
-$$
-A \land A = A
-$$
-交换律 $$
-A \lor B = B \lor A
-$$
-$$
-A \land B = B \land A
-$$
-结合律 $$
-(A \lor B) \lor C = A \lor(B \lor C)
-$$
-$$
-(A \land B) \land C = A \land(B \land C)
-$$
-分配律 $$
-A \lor (B \land C) = (A \lor B) \land (A \lor C)</description></item></channel></rss>
+求法 消除 $\to \leftrightarrow$ 把否定放在每个变元的前面 利用 $\land$ 对 $\lor$ 的分配律 $p=p\land (q\lor \lnot q) = (p\land q)\lor(p\land \lnot q)$ 编码、排序 最大项 性质 每个最大项只有一个成假赋值 最大项的编码：唯一的成假赋值作为编码 $$ \lnot p \land \lnot q :M_{11} \\</description></item><item><title>等价演算</title><link>https://example.com/courses/math/%E7%AD%89%E4%BB%B7%E6%BC%94%E7%AE%97/</link><pubDate>Mon, 24 Feb 2020 15:40:32 +0800</pubDate><guid>https://example.com/courses/math/%E7%AD%89%E4%BB%B7%E6%BC%94%E7%AE%97/</guid><description>基本等价式 双重否定律 $$ \lnot\lnot A = A $$
+等幂律 $$ A \lor A = A $$
+$$ A \land A = A $$
+交换律 $$ A \lor B = B \lor A $$
+$$ A \land B = B \land A $$
+结合律 $$ (A \lor B) \lor C = A \lor(B \lor C) $$
+$$ (A \land B) \land C = A \land(B \land C) $$
+分配律 $$ A \lor (B \land C) = (A \lor B) \land (A \lor C) $$</description></item></channel></rss>
