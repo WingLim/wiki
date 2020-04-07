@@ -1,7 +1,7 @@
 ---
-title: "Linux 磁盘管理"
+title: "磁盘管理"
 date: 2020-04-07T11:08:35+08:00
-draft: true
+draft: false
 ---
 
 ## 查看文件系统空间信息
