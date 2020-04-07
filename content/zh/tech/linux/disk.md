@@ -78,6 +78,16 @@ Device     Boot Start     End Sectors Size Id Type
 当文件系统被 `mount` 则只能扩容
 
 ```bash
-$ resize2fs /dev/sda1
+$ sudo resize2fs /dev/sda1
+```
+
+Example Result:
+
+```bash
+aegir@0xday:~$ sudo resize2fs /dev/sda1
+resize2fs 1.44.5 (15-Dec-2018)
+Filesystem at /dev/sda1 is mounted on /; on-line resizing required
+old_desc_blocks = 4, new_desc_blocks = 8
+The filesystem on /dev/sda1 is now 16744443 (4k) blocks long.
 ```
 
